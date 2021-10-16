@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import React, { Component } from "react";
 
 class Header extends Component {
@@ -36,10 +37,13 @@ class Header extends Component {
                 <img src="images/Logo (2).png" alt="" />
               </a>
             </li>
-            <li className="li-input">
-              <input type="text" placeholder="Search" />
+            <li className="search">
+            <form className="example" action="/action_page.php">
+              <input type="text" placeholder="Search.." />
+              <button type="submit" ><img src="images/search_32px.png" /> </button>
+            </form>
+
             </li>
-            {/* <button><img src="" alt=""></button> */}
           </ul>
           <ul className="menu-right">
             <li>
